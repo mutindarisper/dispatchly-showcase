@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="fGnYjoGXSRpzwvAzmwmC">
+    <mxGraphModel dx="1184" dy="2011" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Lv_W0yA6X8ILSZ9BrvGR-1" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=30;" value="What are the major building blocks inside my system(Dispatchly), and how do they communicate?" vertex="1">
+          <mxGeometry height="120" width="490" x="120" y="-170" as="geometry" />
+        </mxCell>
+        <mxCell id="U4_p3uQpqC8vdQCrZJsw-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="200" width="345" x="585" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="U4_p3uQpqC8vdQCrZJsw-9" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;Dispatchly&amp;nbsp;&lt;/span&gt;Database&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;PostgreSQL&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Stores&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;• Users&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;• Orders&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;• Deliveries&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;• Locations&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="247.5" x="642.5" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="U4_p3uQpqC8vdQCrZJsw-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Reads/Writes application data" vertex="1">
+          <mxGeometry height="30" width="130" x="760" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="U4_p3uQpqC8vdQCrZJsw-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Dispatchly API&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Python&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;FastAPI&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;SQLAlchemy&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Handles&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;business logic,&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;authentication,&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;delivery assignment,&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;tracking,&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;notifications.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="155" width="280" x="626.25" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="U4_p3uQpqC8vdQCrZJsw-40" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="140" y="240" as="sourcePoint" />
+            <mxPoint x="1450" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4_p3uQpqC8vdQCrZJsw-42" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1450" y="1160" as="sourcePoint" />
+            <mxPoint x="1450" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4_p3uQpqC8vdQCrZJsw-43" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="140" y="1160" as="sourcePoint" />
+            <mxPoint x="140" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4_p3uQpqC8vdQCrZJsw-44" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="140" y="1160" as="sourcePoint" />
+            <mxPoint x="1450" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4_p3uQpqC8vdQCrZJsw-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;Dispatchly&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="270" x="660" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="U4_p3uQpqC8vdQCrZJsw-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Uses HTTPS / REST" vertex="1">
+          <mxGeometry height="30" width="60" x="765" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="U4_p3uQpqC8vdQCrZJsw-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Uses HTTPS / REST" vertex="1">
+          <mxGeometry height="30" width="60" x="750" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="U4_p3uQpqC8vdQCrZJsw-49" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.467;entryY=-0.015;entryDx=0;entryDy=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="744.44" y="440" as="sourcePoint" />
+            <mxPoint x="745.5549999999998" y="587" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4_p3uQpqC8vdQCrZJsw-50" edge="1" parent="1" source="U4_p3uQpqC8vdQCrZJsw-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="758.82" y="774.9999999999995" as="sourcePoint" />
+            <mxPoint x="758.82" y="919.9999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ryx1N6ZP8oAV7W_62izM-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Business Web App&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;React + TypeScript + Tailwind&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Allows businesses to&lt;/div&gt;&lt;div&gt;manage deliveries,&lt;/div&gt;&lt;div&gt;assign riders,&lt;/div&gt;&lt;div&gt;and monitor deliveries.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="220" x="1610" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Ryx1N6ZP8oAV7W_62izM-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Rider Web App&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;React + TypeScript + Tailwind&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Allows riders to&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;accept jobs,&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;update delivery status,&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;and navigate deliveries.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="210" x="1950" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Ryx1N6ZP8oAV7W_62izM-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Customer Web App&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;React + TypeScript + Tailwind&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Allows customers to&lt;/div&gt;&lt;div&gt;track and monitor&lt;/div&gt;&lt;div&gt;their deliveries.&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="210" x="2290" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Ryx1N6ZP8oAV7W_62izM-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Dispatchly Web App&lt;br&gt;&lt;/font&gt;&lt;li data-section-id=&quot;ib7aiy&quot; data-start=&quot;152&quot; data-end=&quot;172&quot;&gt;Business dashboard&lt;/li&gt;&lt;li data-section-id=&quot;ghsof9&quot; data-start=&quot;173&quot; data-end=&quot;190&quot;&gt;Rider interface&lt;/li&gt;&lt;li data-section-id=&quot;1a7fhou&quot; data-start=&quot;191&quot; data-end=&quot;215&quot;&gt;Customer tracking view&lt;/li&gt;&lt;li data-section-id=&quot;xo9z8h&quot; data-start=&quot;216&quot; data-end=&quot;239&quot;&gt;Shared authentication&lt;/li&gt;&lt;li data-section-id=&quot;1saja2o&quot; data-start=&quot;240&quot; data-end=&quot;259&quot;&gt;Shared API client&lt;/li&gt;&lt;li data-section-id=&quot;gzu56p&quot; data-start=&quot;260&quot; data-end=&quot;282&quot;&gt;Shared UI components&lt;/li&gt;" vertex="1">
+          <mxGeometry height="190" width="355" x="585" y="330" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,185 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="hmtTZpa0-_T2OLWB_cfr">
+    <mxGraphModel dx="4191" dy="6491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-42" edge="1" parent="1" source="S9dLEt_LEJUVIImhOGCg-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="-4240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-21" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;Dispatchly Web app&lt;/font&gt;&lt;br&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="380" width="520" x="640" y="-4740" as="geometry" />
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-22" parent="S9dLEt_LEJUVIImhOGCg-21" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;React + TypeScript + Tailwind&lt;br&gt;&lt;br&gt;A single page application designed to streamline delivery operations for businesses&lt;/font&gt;" vertex="1">
+          <mxGeometry height="130" width="410" x="35" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-37" parent="S9dLEt_LEJUVIImhOGCg-21" style="text;whiteSpace=wrap;html=1;" value="&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Authentication UI&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Role-Based Router&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Business Dashboard&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Rider Dashboard&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Customer tracking view&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;API client&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Shared UI Components&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="150" width="510" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Identity and Access Component&lt;/b&gt;&lt;/font&gt;&lt;div&gt;Authenticates users and enforces role-based access control, supports Google OAuth, and issues access tokens through REST endpoints.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="240" x="250" y="-4160" as="geometry" />
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Delivery Management Component&lt;/b&gt;&lt;/font&gt;&lt;div&gt;Creates deliveries, assigns riders, and manages delivery status from pending through completion.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="240" x="530" y="-4160" as="geometry" />
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-52" edge="1" parent="1" source="S9dLEt_LEJUVIImhOGCg-25" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="S9dLEt_LEJUVIImhOGCg-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="-4090" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-66" edge="1" parent="1" source="S9dLEt_LEJUVIImhOGCg-25" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="S9dLEt_LEJUVIImhOGCg-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Tracking Component&lt;/b&gt;&lt;/font&gt;&lt;div&gt;Receives rider location updates and provides current delivery location to authorised clients using polling.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="240" x="810" y="-4160" as="geometry" />
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Payment Component&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;Enables payment integration using Mpesa and or Stripe&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="240" x="1090" y="-4160" as="geometry" />
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Notification Component&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;Sends SMS notifications when significant delivery events occur.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="240" x="1370" y="-4160" as="geometry" />
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Makes authenticated API requests using HTTPS/JSON" vertex="1">
+          <mxGeometry height="40" width="230" x="910" y="-4330" as="geometry" />
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-38" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1738" y="-4240" as="sourcePoint" />
+            <mxPoint x="80" y="-4240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-39" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1738" y="-3920" as="sourcePoint" />
+            <mxPoint x="80" y="-3920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-40" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="80" y="-4230" as="sourcePoint" />
+            <mxPoint x="80" y="-3920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-41" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1720" y="-4240" as="sourcePoint" />
+            <mxPoint x="1720" y="-3920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;strong data-start=&quot;728&quot; data-end=&quot;754&quot; style=&quot;&quot;&gt;Dispatchly Backend API -&amp;nbsp;&lt;/strong&gt;&lt;b&gt;Python&amp;nbsp; / FastAPI&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="55" width="240" x="80" y="-3980" as="geometry" />
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-46" edge="1" parent="1" source="S9dLEt_LEJUVIImhOGCg-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.423;entryY=1.015;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" target="S9dLEt_LEJUVIImhOGCg-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="-3940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-47" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.276;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" target="S9dLEt_LEJUVIImhOGCg-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="-4238" />
+            </Array>
+            <mxPoint x="670" y="-4161" as="sourcePoint" />
+            <mxPoint x="1348.7199999999998" y="-4199.68" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="publishes delivery events" vertex="1">
+          <mxGeometry height="30" width="150" x="970" y="-4220" as="geometry" />
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-50" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="triggers payment after successful delivery" vertex="1">
+          <mxGeometry height="60" width="150" x="920" y="-3990" as="geometry" />
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-53" edge="1" parent="1" source="S9dLEt_LEJUVIImhOGCg-51" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="-4090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="reads the active delivery/rider association." vertex="1">
+          <mxGeometry height="30" width="120" x="730" y="-3970" as="geometry" />
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-54" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;Dispatchly &lt;/span&gt;Database&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;PostgreSQL&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Stores&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;• Users&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;• Orders&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;• Deliveries&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;• Locations&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="340" width="460" x="700" y="-3410" as="geometry" />
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-59" edge="1" parent="1" source="S9dLEt_LEJUVIImhOGCg-55" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.514;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" target="S9dLEt_LEJUVIImhOGCg-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="935" y="-3440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Repositories" vertex="1">
+          <mxGeometry height="120" width="350" x="760" y="-3640" as="geometry" />
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-58" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="S9dLEt_LEJUVIImhOGCg-55" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="933.9399999999999" y="-3919.64" as="sourcePoint" />
+            <mxPoint x="936.0700000000002" y="-3720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Backend components persist data through the Repository layer." vertex="1">
+          <mxGeometry height="30" width="220" x="940" y="-3900" as="geometry" />
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=#000000;strokeColor=#C73500;strokeWidth=3;" value="&lt;b&gt;Identity&lt;/b&gt;&lt;div&gt;Google OAuth&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="270" y="-3820" as="geometry" />
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#006600);strokeWidth=4;" value="&lt;b&gt;Payment&lt;/b&gt;&lt;div&gt;Mpesa&lt;br&gt;Stripe&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="130" x="1240" y="-3820" as="geometry" />
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-64" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;strokeColor=light-dark(#000000,#FF33FF);" value="&lt;b&gt;Notifications&lt;/b&gt;&lt;div&gt;SMS Provider&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="1470" y="-3820" as="geometry" />
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;strokeColor=light-dark(#000000,#00CC00);" value="Google Maps API" vertex="1">
+          <mxGeometry height="80" width="120" x="480" y="-3820" as="geometry" />
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-68" edge="1" parent="1" source="S9dLEt_LEJUVIImhOGCg-23" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.562;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.448;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="362.5603023966548" y="-4020" as="sourcePoint" />
+            <mxPoint x="360.0000000000005" y="-3819.92" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-70" edge="1" parent="1" source="S9dLEt_LEJUVIImhOGCg-26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="S9dLEt_LEJUVIImhOGCg-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1270" y="-3850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-71" edge="1" parent="1" source="S9dLEt_LEJUVIImhOGCg-27" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.673;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" target="S9dLEt_LEJUVIImhOGCg-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-72" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="60" y="-3840" as="sourcePoint" />
+            <mxPoint x="1760" y="-3840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-73" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="50" y="-3720" as="sourcePoint" />
+            <mxPoint x="1770" y="-3720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-74" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1760" y="-3720" as="sourcePoint" />
+            <mxPoint x="1760" y="-3840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-75" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="60" y="-3720" as="sourcePoint" />
+            <mxPoint x="60" y="-3840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-76" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;External systems&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="70" y="-3760" as="geometry" />
+        </mxCell>
+        <mxCell id="S9dLEt_LEJUVIImhOGCg-77" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;What componets reside in a container and what are their responsibilities, technology and implementation details?&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="430" x="40" y="-4760" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
