@@ -23,6 +23,9 @@ the build. The application itself lives in two private repositories:
 ---
 
 ## 📸 Product
+### Sign in
+
+![Login](./assets/product_demo/Login.png)
 
 ### Dashboard
 
@@ -50,9 +53,6 @@ location on the map.
 
 ![Assign Rider](./assets/product_demo/assign_rider%20to%20order.png)
 
-### Sign in
-
-![Login](./assets/product_demo/Login.png)
 
 ---
 
