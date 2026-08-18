@@ -51,7 +51,7 @@ the order summary fills in with the distance and ETA for that delivery.
 Full order detail — customer, phone, delivery address, delivery note — beside the drop-off
 location on the map.
 
-![Assign Rider](./assets/product_demo/assign_rider%20to%20order.png)
+![Assign Rider](./assets/product_demo/assign_rider.png)
 
 ---
 
